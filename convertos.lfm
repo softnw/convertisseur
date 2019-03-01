@@ -1,0 +1,94 @@
+object Form1: TForm1
+  Left = 286
+  Height = 300
+  Top = 187
+  Width = 530
+  Caption = 'Form1'
+  ClientHeight = 300
+  ClientWidth = 530
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Button1: TButton
+    Left = 64
+    Height = 31
+    Top = 69
+    Width = 94
+    Caption = 'convert'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 64
+    Height = 31
+    Top = 128
+    Width = 94
+    Caption = 'reset'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 64
+    Height = 31
+    Top = 184
+    Width = 94
+    Caption = 'quitter'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 456
+    Height = 20
+    Top = 80
+    Width = 8
+    Caption = '€'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 456
+    Height = 20
+    Top = 192
+    Width = 8
+    Caption = '$'
+    ParentColor = False
+  end
+  object RadioButton1: TRadioButton
+    Left = 240
+    Height = 24
+    Top = 76
+    Width = 62
+    Caption = '€-->$'
+    OnClick = RadioButton1Click
+    TabOrder = 6
+  end
+  object RadioButton2: TRadioButton
+    Left = 241
+    Height = 24
+    Top = 184
+    Width = 62
+    Caption = '€<--$'
+    OnClick = RadioButton2Click
+    TabOrder = 3
+  end
+  object SpinEdit1: TFloatSpinEdit
+    Left = 384
+    Height = 28
+    Top = 72
+    Width = 63
+    Increment = 1
+    MaxValue = 100
+    MinValue = 0
+    TabOrder = 4
+    Value = 0
+  end
+  object SpinEdit2: TFloatSpinEdit
+    Left = 384
+    Height = 28
+    Top = 184
+    Width = 63
+    Increment = 1
+    MaxValue = 100
+    MinValue = 0
+    TabOrder = 5
+    Value = 0
+  end
+end
